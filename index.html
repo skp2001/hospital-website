@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<!--Import Google Icon Font-->
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+			<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		<link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+			<!--Let browser know website is optimized for mobile-->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		</head>
+
+		<body>
+
+			<header>
+				<div class="col s12 m12 light-blue darken-4 white-text" id="head">
+						
+					<h1>Patil Hospital 🏥</h1>
+					
+					<span class="left" id="motto">Because We Care.... 💚</span>
+					<span class="red right" id="sos"><h4>SOS: 1400</h4></span>
+					<br><br><br><br><br>
+					<div class="divider"></div>
+					<nav id="navButtons">
+						<div class="nav-wrapper light-blue darken-4 white-text">
+							<ul id="nav-mobile" class="hide-on-med-and-down">
+								<li class="active"><a href="index.html">DASHBOARD</a></li>
+								<li><a href="doctors.html">DOCTORS</a></li>
+								<li><a href="staff.html">STAFF</a></li>
+								<li><a href="patients.html">PATIENTS</a></li>
+								<li><a href="emergency.html">EMERGENCY</a></li>
+								
+							</ul>
+						</div>
+					</nav>
+				</div>
+
+				
+
+				
+			</header>
+		
+			<div class="container white-text">
+
+				<div class="row" id="doc-pat">
+
+					<div class="col s6 m6 l6 center-align z-depth-1" id="patients">
+						<div class="col s12 m12 l12 light-blue darken-1 blue-text text-darken-4"><h2>PATIENTS</h2></div>
+						<div class="col s4 m4 l4 purple medium">
+							<h5>Total</h5>
+							<p id="stats">437</p>
+						</div>
+						<div class="col s4 m4 l4 red lighten-2 medium">
+							<h5>Admitted</h5>
+							<p id="stats">328</p>
+						</div>
+						<div class="col s4 m4 l4 green lighten-2 medium">
+							<h5>Discharged</h5>
+							<p id="stats">109</p>
+						</div>	
+					</div>
+
+					<div class="col s6 m6 l6 center-align z-depth-1" id="doctors">
+						<div class="col s12 m12 l12 light-blue darken-1 blue-text text-darken-4"><h2>DOCTORS</h2></div>
+						<div class="col s4 m4 l4 purple medium">
+							<h5>Total</h5>
+							<p id="stats">90</p>
+						</div>
+						<div class="col s4 m4 l4 red lighten-2 medium">
+							<h5>On-duty</h5>
+							<p id="stats">43</p>
+						</div>
+						<div class="col s4 m4 l4 green lighten-2 medium">
+							<h5>Off-Duty</h5>
+							<p id="stats">47</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+				<div class="divider"></div>
+
+				<div class="row center-align" id="trauma">
+					<div class="col s12 m12 l12 light-blue darken-1 blue-text text-darken-4"><h2>TRAUMA CENTERS</h2></div>
+
+					<div class="col s4 m4 l4 large" id="low">
+						<div class="row teal accent-4" id="trauma1"><h3 id="low">1</h3><h3>Empty</h3></div>
+						<div class="divider"></div>
+						<div class="row red accent-4" id="trauma2"><h3 id="low">2</h3><h3>Occupied</h3></div>
+					</div>
+
+					<div class="col s4 m4 l4 large" id="med">
+						<div class="row teal accent-4" id="trauma3"><h3 id="med">3</h3><h3>Empty</h3></div>
+						<div class="divider"></div>
+						<div class="row teal accent-4" id="trauma4"><h3 id="med">4</h3><h3>Empty</h3></div>
+					</div>
+
+					<div class="col s4 m4 l4 large" id="high">
+						<div class="row red accent-4" id="trauma5"><h3 id="high">5</h3><h3>Occupied</h3></div>
+						<div class="divider"></div>
+						<div class="row teal accent-4" id="trauma6"><h3 id="high">6</h3><h3>Empty</h3></div>
+					</div>
+
+
+
+				</div>
+			</div>
+			<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		</body>
+	</html>

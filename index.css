@@ -1,0 +1,68 @@
+body
+{
+	background-image: linear-gradient(to right, rgb(0, 210, 255), rgb(58, 123, 213))
+}
+
+
+
+h1
+{
+	margin: 0;
+	padding: 0.5rem;
+	padding-bottom: 2rem;
+}
+
+#motto
+{
+	padding:1em;
+	padding-top: 0;
+	font-size: 2rem;
+}
+
+#navButtons
+{
+	box-shadow: none;
+}
+
+#stats
+{
+	font-size: 2rem;
+}
+
+#patients
+{
+	padding: 0;
+}
+
+#doctors
+{
+	padding: 0;
+}
+
+#doc-pat
+{
+	padding: 2rem;
+}
+
+#trauma
+{
+	padding: 0;
+	padding-top: 2rem;
+}
+
+#trauma1, #trauma2, #trauma3, #traum4, #trauma5, #trauma6
+{
+	padding: 0;
+	margin: 0;
+}
+
+#sos
+{
+	padding: 0.5em;
+}
+
+#low, #med, #high
+{
+	padding: 0;
+	margin: 0;
+}
